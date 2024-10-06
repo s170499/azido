@@ -28,7 +28,7 @@ export const MainVideo = () => {
       observer.observe(videoElement);  // Observe the video
 
       return () => {
-        observer.unobserve(videoElement);  // Clean up when the component unmounts
+        observer.unobserve(videoElement); 
       };
     }
   }, []);
@@ -36,7 +36,7 @@ export const MainVideo = () => {
   return (
     <Box sx={{ maxWidth: '100%', height: { xs: '500px',sm:'600px', md: '800px' }}}>
       <video
-        ref={videoRef}  // Ref that points to this single <video> element
+        ref={videoRef}  
         loop
         muted
         preload="metadata"
