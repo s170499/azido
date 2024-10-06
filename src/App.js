@@ -7,12 +7,14 @@ const Home = React.lazy(() => import('./pages/Home'));
 const Audio = React.lazy(() => import('./pages/Audio'));
 const About = React.lazy(() => import('./pages/About'));
 const FollowMeSection = React.lazy(() => import('./components/FollowMe'));
+const LoadingScreen = React.lazy(() => import('./components/LoadingScreen'));
 
 
 function App() {
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
+      <LoadingScreen />
       <Navbar />
       <Routes>
       <Route path="/" element={<Home />} />

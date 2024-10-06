@@ -20,6 +20,7 @@ const SoundCloudEmbed = ({ embedUrl, trackUrl, trackTitle }) => {
         width="100%"
         height="350"
         allow="autoplay"
+        loading="lazy"
         src={embedUrl}
         style={{
           border: 'none',

@@ -34,13 +34,13 @@ export const MainVideo = () => {
   }, []);
 
   return (
-    <Box sx={{ maxWidth: '100%', height: '100%',  background: 'black' }}>
+    <Box sx={{ maxWidth: '100%', height: { xs: '500px',sm:'600px', md: '800px' }}}>
       <video
         ref={videoRef}  // Ref that points to this single <video> element
         loop
         muted
         preload="metadata"
-        style={{ width: '100%', height: '100%' }}
+        style={{ width: '100%', height: '100%', objectFit: 'cover',  }}
       >
         <source src={main} type="video/mp4" />
         Your browser does not support the video tag.
