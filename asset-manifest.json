@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/azido/static/js/main.f0f7896e.js",
+    "main.js": "/azido/static/js/main.f92f269f.js",
     "static/js/976.ffb5f527.chunk.js": "/azido/static/js/976.ffb5f527.chunk.js",
     "static/js/615.ecd6a650.chunk.js": "/azido/static/js/615.ecd6a650.chunk.js",
     "static/js/936.b78776c9.chunk.js": "/azido/static/js/936.b78776c9.chunk.js",
@@ -33,7 +33,7 @@
     "static/media/photo3.jpg": "/azido/static/media/photo3.3a44f6c81a718dcd008b.jpg",
     "static/media/logo_white.png": "/azido/static/media/logo_white.e11e140dd36907e04835.png",
     "index.html": "/azido/index.html",
-    "main.f0f7896e.js.map": "/azido/static/js/main.f0f7896e.js.map",
+    "main.f92f269f.js.map": "/azido/static/js/main.f92f269f.js.map",
     "976.ffb5f527.chunk.js.map": "/azido/static/js/976.ffb5f527.chunk.js.map",
     "615.ecd6a650.chunk.js.map": "/azido/static/js/615.ecd6a650.chunk.js.map",
     "936.b78776c9.chunk.js.map": "/azido/static/js/936.b78776c9.chunk.js.map",
@@ -57,6 +57,6 @@
     "943.4ad53c40.chunk.js.map": "/azido/static/js/943.4ad53c40.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.f0f7896e.js"
+    "static/js/main.f92f269f.js"
   ]
 }
