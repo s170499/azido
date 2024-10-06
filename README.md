@@ -13,7 +13,5 @@ The project is live on GitHub Pages. You can view it here 👉:
 
 # Installation Instructions 🥱
 To run the project locally, follow these steps:
-
-1. **Clone the repository**:
-   ```bash
+Clone the repository:
 git clone https://github.com/s170499/azido.git
