@@ -18,7 +18,6 @@ function App() {
       <Navbar />
       <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/azido" element={<Home />} />
       <Route path="/Audio" element={< Audio />} />
         <Route path="/Contact" element={< Contact />} />
         <Route path="/About" element={< About />} />
